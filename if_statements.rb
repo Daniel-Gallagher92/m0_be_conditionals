@@ -69,8 +69,14 @@ has_sauce = true
 
 if cups_of_flour >= 2 && has_sauce == true
   p "I can make pizza"
-else 
+elsif cups_of_flour <= 2 and has_sauce == true
   p "I cannot make pizza"
+elsif cups_of_flour >= 2 and has_sauce == false
+   print "I cannot make pizza"
+elsif cups_of_flour >= 2 and has_sauce == true
+   print "I can make pizza"
+elsif cups_of_flour >= 2 and has_sauce == true
+   print "I can make pizza"
 end
 
 cups_of_flour = 5
