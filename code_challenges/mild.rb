@@ -5,6 +5,6 @@ number = 8
 
 if number.even?
     p "even"
-elsif number.odd?
+else
     p "odd"
 end
