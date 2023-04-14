@@ -45,7 +45,7 @@ num_quarters = 3
 
 if num_quarters >= 2
 p "I have enough money for a gumball"
-elsif num_quarters != 2
+else
 puts "I don't have enough money for a gumball"
 end
 
